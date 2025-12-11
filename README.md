@@ -3,9 +3,6 @@ Information Gathering Techiques
 
 # To perform information gathering techniques
 
-### NAME: Prathik TS
-### REG. NO: 212224240117
-
 # AIM:
 
 To perform information gathering techniques using kali linux 
@@ -23,80 +20,39 @@ Investigate on the various categories of tools as follows:
 ### Step 3:
 Open terminal/browser and try execute necessary commands/use url to perform information gathering
 
-## Pen Test Tools Categories:
-Following Categories of pen test tools are identified for information gathering:
-
-Footprinting is a part of the reconnaissance process which is used for gathering possible information about a target computer system or network.
-
-http://www.whois.com/whois website to get detailed information about a domain name information including its owner, its registrar, date of registration, expiry, name server, owner's contact information, etc.
 
 ## OUTPUT:
-![image](https://github.com/user-attachments/assets/19bd504c-a8a5-4598-8f57-37cc2e9bf01f)
 
-## Finding IP address:
-ping command is available on Windows as well as on Linux OS. Following is the example to find out the IP address of youtube .com
+### WHOIS:-
 
-## OUTPUT:
-![image](https://github.com/user-attachments/assets/bc3c108f-80d5-4ec8-a941-e4752482b876)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/35d959c7-75ce-45a6-a549-65891705b783" />
 
+### IP2LOCATION:-
 
-## Finding Hosting Company:
-get further detail by using ip2location.com website.
-## OUTPUT :
-![image](https://github.com/user-attachments/assets/20279658-a27c-4476-8755-57f0e7af91ef)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/35b30ce4-fce8-4711-97cd-b46c9bf093c2" />
 
+### WEB ARCHIVE:-
 
-## History of the website:
-https://web.archive.org/
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c66ffcb7-81a4-4963-8639-2ea090cf693c" />
 
-## OUTPUT :
-![image](https://github.com/user-attachments/assets/1bbd2916-22f8-4056-8707-d4b3496442bf)
-![image](https://github.com/user-attachments/assets/7cfbd5af-c934-46da-823f-d6c7cc968277)
+### NMAP:-
 
+<img width="889" height="467" alt="image" src="https://github.com/user-attachments/assets/34e41040-75bc-47b2-83d1-13127c759c30" />
 
-## Webserver Fingerprinting:
-## Netcat:
-nc 172.17.52.118 80
+### WHATWEB:-
 
-## OUTPUT:
-![image](https://github.com/user-attachments/assets/1498687d-e171-43ee-bc89-ecba11caab7e)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/faff8a76-bdad-4f77-98a8-a2f9a8c44a94" />
 
+### HTTP PRINT:-
 
-## nmap:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d77d08b7-bcb2-4f24-8322-58737271be87" />
 
-nmap -p 21 -sV --script=banner ftp.vim.org
-## OUTPUT :
-![image](https://github.com/user-attachments/assets/5f3c9a0e-8613-4c44-a3f2-2bc0009c1fb1)
+### TRACEROUTE:-
 
+<img width="1021" height="742" alt="image" src="https://github.com/user-attachments/assets/a21ed7f7-9d29-45c1-9f87-da92d4d2c85e" />
+<img width="1047" height="320" alt="image" src="https://github.com/user-attachments/assets/11cda3db-a491-43b2-a051-a1d85c71288c" />
+<img width="1021" height="742" alt="image" src="https://github.com/user-attachments/assets/644102a9-cbb5-4651-8302-4ed9f74bc32f" />
 
-## Whatweb:
-## OUTPUT:
-![image](https://github.com/user-attachments/assets/b22f49ac-8145-45f0-92e8-40f8dfc3eb7f)
-
-
-
-## httprint:
-httprint -h 172.17.52.201 -s /usr/share/httprint/signatures.txt -P0 |more
-## OUTPUT :
-![420418073-ab3f61a1-c3f7-4787-8c4a-cc92f2b65b9d](https://github.com/user-attachments/assets/92a43e6a-8282-4bda-8d73-2501f25d3a5b)
-
-
-## Tracing the Location:
-## TCP Traceroute:
-sudo traceroute -T www.instagram.com
-## OUTPUT :
-![image](https://github.com/user-attachments/assets/d359a095-0a39-45a0-afea-8e30f6410488)
-
-
-## UDP Traceroute:
-sudo traceroute -U www.instagram.com
-## OUTPUT :
-![image](https://github.com/user-attachments/assets/3209be79-e9b4-4bb8-ae84-bf3c4373e6c8)
-
-## ICMP Traceroute:
-sudo traceroute  www.facebook.com
-## OUTPUT :
-![image](https://github.com/user-attachments/assets/977aa607-6a83-46bc-8307-3963135d991f)
 
 ## RESULT:
 The information gathering techniques tools/procedure were  identified successfully
